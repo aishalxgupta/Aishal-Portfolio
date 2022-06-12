@@ -1,0 +1,86 @@
+[debug] [2022-06-11T06:48:32.071Z] ----------------------------------------------------------------------
+[debug] [2022-06-11T06:48:32.073Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ONWER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-11T06:48:32.074Z] CLI Version:   11.0.1
+[debug] [2022-06-11T06:48:32.074Z] Platform:      win32
+[debug] [2022-06-11T06:48:32.074Z] Node Version:  v16.14.2
+[debug] [2022-06-11T06:48:32.075Z] Time:          Sat Jun 11 2022 12:18:32 GMT+0530 (India Standard Time)
+[debug] [2022-06-11T06:48:32.075Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-11T06:48:32.150Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-11T06:48:32.150Z] > authorizing via signed-in user (aishalgupta3008@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ONWER\OneDrive\Desktop\port\React-Portfolio-starter-code-files
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-11T06:48:54.687Z] Using project from CLI flag: portfolio-website-c8368
+[debug] [2022-06-11T06:48:54.690Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-c8368 [none]
+[debug] [2022-06-11T06:48:55.327Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-c8368 403
+[debug] [2022-06-11T06:48:55.327Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-c8368 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-06-11T06:48:55.328Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-06-11T06:48:55.567Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ONWER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\ONWER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project portfolio-website-c8368. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-06-11T06:51:56.807Z] ----------------------------------------------------------------------
+[debug] [2022-06-11T06:51:56.809Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ONWER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-11T06:51:56.810Z] CLI Version:   11.0.1
+[debug] [2022-06-11T06:51:56.810Z] Platform:      win32
+[debug] [2022-06-11T06:51:56.810Z] Node Version:  v16.14.2
+[debug] [2022-06-11T06:51:56.811Z] Time:          Sat Jun 11 2022 12:21:56 GMT+0530 (India Standard Time)
+[debug] [2022-06-11T06:51:56.811Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-11T06:51:56.876Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-11T06:51:56.876Z] > authorizing via signed-in user (aishalgupta3008@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ONWER\OneDrive\Desktop\port\React-Portfolio-starter-code-files
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-11T06:52:49.996Z] Using project from CLI flag: portfolio-website-c8368
+[debug] [2022-06-11T06:52:50.000Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-c8368 [none]
+[debug] [2022-06-11T06:52:50.520Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-c8368 403
+[debug] [2022-06-11T06:52:50.520Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-c8368 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-06-11T06:52:50.521Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-06-11T06:52:50.779Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ONWER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\ONWER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project portfolio-website-c8368. Please make sure the project exists and your account has permission to access it.
