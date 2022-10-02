@@ -1,7 +1,7 @@
 # Aishal's Arena ^_^
 
 
-My Portfolio Website Built using React JS, Styled Components &amp; Framer Motion
+My Portfolio Website Built using React JS
 
 
 
